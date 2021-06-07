@@ -1,0 +1,7 @@
+#!/bin/sh
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+echo -e "\033[38;5;68m"
+cat ${SCRIPT_DIR}/pre-commit.banner
+echo -e "\033[0m"
